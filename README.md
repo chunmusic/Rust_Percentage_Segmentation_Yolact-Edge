@@ -8,6 +8,8 @@
 
 - Please go to this url to download weight file (https://drive.google.com/drive/folders/1dMHNiwz7B7azoJdPoqXwteOaO4Qf5CrY?usp=sharing)
 
+- Using Yolact-Edge, it can perform up to 25-30 FPS on RTX3080
+
 - The project was implemented in World Robot Summit 2020 (WRS) competition.
 
 ## How to use
