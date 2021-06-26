@@ -1,4 +1,4 @@
-# Rust Percentage Instance Segmentation (Mask-RCNN)
+# Rust Percentage Instance Segmentation (Yolact-Edge)
 
 - This repository is created to calculate rust percentage with instance segmentation.
 
@@ -15,7 +15,7 @@
 - Please run the following command to run the demo.
 
 ```python
-python inference.py
+python eval.py --trained_model=weights/yolact_edge_199999_800000.pth --score_threshold=0.3 --top_k=100 --video_multiframe=2 --trt_batch_size 2 --video=rust.mp4 --disable_tensorrt
 ```
 
 ## Preview
